@@ -102,7 +102,7 @@ export const contracts: DeployedContract[] = [
   {name: 'L2_ERC1155_GATEWAY_IMPLEMENTATION_ADDR', initializes: false, owned: false, layer: Layer.L2},
   {name: 'L1_SYSTEM_CONFIG_PROXY_ADDR', initializes: true, owned: true, layer: Layer.L1},
   {name: 'L1_SYSTEM_CONFIG_IMPLEMENTATION_ADDR', initializes: true, owned: false, layer: Layer.L1},
-  {name: 'L1_ZKEVM_VERIFIER_V1_ADDR', initializes: false, owned: false, layer: Layer.L1},
+  {name: 'L1_ZKEVM_VERIFIER_V2_ADDR', initializes: false, owned: false, layer: Layer.L1},
 ]
 
 // export const L1Contracts: DeployedContract[] = [
